@@ -2,7 +2,7 @@ import '@testing-library/jest-dom/extend-expect';
 import { render, waitForElement, cleanup, act } from '@testing-library/react';
 import * as React from 'react';
 import '@testing-library/jest-dom/extend-expect';
-import * as firebase from '@firebase/testing';
+import firebase from '@firebase/testing';
 import { useDatabaseObject, useDatabaseList, FirebaseAppProvider } from '..';
 import { database } from 'firebase/app';
 import { QueryChange } from 'rxfire/database/dist/database';

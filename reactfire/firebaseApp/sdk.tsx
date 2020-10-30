@@ -1,5 +1,5 @@
 import { useFirebaseApp } from '.';
-import * as firebase from 'firebase/app';
+import firebase from 'firebase/app';
 import { Observable } from 'rxjs';
 import { preloadObservable } from '../useObservable';
 
